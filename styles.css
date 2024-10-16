@@ -1,0 +1,148 @@
+body {
+    background-color:  rgb(212, 251, 251);
+}
+
+
+a{
+    color:blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color:pink; 
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #065463;
+    color: #ffffff;
+    padding: 25px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.navigation a{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(212, 251, 251);
+    margin-top: 100px;
+}
+.profile-photo{
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.profile-info p{
+    font-size: 20px;
+}
+.solid-line-star-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 100%;
+}
+.solid-line{
+    flex-grow: 1;
+    height: 2px;
+    background-color: black;
+    margin: 0 10px;
+}
+.star{
+    font-size: 30px;
+}
+.hobbies {
+    text-align: center; /* 居中标题和内容 */
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.hobbies h2 {
+    font-size: 32px; /* 大标题字体大小 */
+    margin-bottom: 20px; /* 大标题底部间距 */
+}
+
+.hobby-photos {
+    display: flex; /* 使用 flexbox 布局 */
+    justify-content: space-around; /* 水平排列，并在它们之间均匀分布空间 */
+    align-items: center; /* 垂直居中对齐 */
+    gap: 30px; /* 每个爱好之间的间距 */
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column; /* 垂直排列爱好图片和标题 */
+    align-items: center; /* 水平居中 */
+    gap: 20px;
+}
+
+.hobby img:hover {
+    transform: scale(1.05); /* 鼠标悬停时图片放大 */
+}
+
+.hobby img {
+    width: 250px;
+    height: 325px; 
+    border-radius: 10px; /* 圆角效果 */
+    transition: transform 0.3s ease; /* 添加鼠标悬停效果 */
+}
+
+footer{
+    position: fixed;  /*always can see the box*/
+    bottom: 0; 
+    width: 100%; 
+    background-color: #fff;
+}
+h1{
+    font-size: 50px;
+}
+.contact{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.contact img{
+    width:50px;
+    height:50px;
+    margin-bottom: 10px;
+}
+.contact h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
