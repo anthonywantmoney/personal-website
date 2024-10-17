@@ -44,12 +44,13 @@ header {
 }
 .header-navigation a{
     color: white;
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 15px;
+    font-size: 20px;
     text-decoration: none;
 }
-.navigation a:hover{
+.header-navigation a:hover{
     text-decoration: underline;
+    color: blanchedalmond;
 }
 
 .profile{
@@ -176,8 +177,9 @@ html {
 }
 @media (max-width: 768px) {
     .header-content {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        justify-content: space-around;
     }
     .header-navigation a {
         margin-left: 0;
@@ -186,7 +188,7 @@ html {
 }
 @media (max-width: 768px) {
     .profile-photo {
-        width: 80%; /* 让照片占满手机屏幕的80%宽度 */
+        width: 60%; /* 让照片占满手机屏幕的80%宽度 */
         height: auto;
     }
     .profile-info p {
