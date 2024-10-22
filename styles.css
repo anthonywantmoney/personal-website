@@ -25,7 +25,7 @@ header {
     width: 100%;
     background-color: #065463;
     color: #ffffff;
-    padding: 25px;
+    padding: 23px;
 }
 .header-content{
     display: flex;
@@ -34,8 +34,8 @@ header {
 }
 .header-name{
     font-family: 'Montserrat';
-    font-size: 20px;
-    margin-left: 50px;
+    font-size: 18px;
+    margin-left: 40px;
 }
 .header-navigation{
     display: flex;
@@ -180,6 +180,9 @@ html {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+    }
+    .header-content h1 {
+        font-size: 12px;
     }
     .header-navigation a {
         margin-left: 0;
